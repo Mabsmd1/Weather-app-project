@@ -93,3 +93,7 @@ button:hover {
   color: black;
   cursor: pointer;
 }
+
+#githubLink {
+  text-align: center;
+}
