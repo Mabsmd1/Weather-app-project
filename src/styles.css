@@ -1,0 +1,95 @@
+.content {
+  background: linear-gradient(#eaec89, #dbe591);
+  display: block;
+  margin: 0 auto;
+}
+
+.box {
+  width: 700px;
+  height: 550px;
+  margin: 60px auto 0;
+  background: linear-gradient(#eaec89, #dbe591);
+  text-align: center;
+  padding: 35px;
+  border: 2px solid #fff;
+  border-radius: 30px;
+}
+
+h1,
+h2 {
+  text-align: left;
+}
+
+#celsius {
+  position: absolute;
+  top: 158px;
+  right: 768px;
+
+  font-size: 13px;
+}
+
+#celsius-link {
+  color: #212529;
+}
+
+h3,
+h4 {
+  color: rgb(94, 88, 88);
+}
+
+h3 {
+  position: absolute;
+  top: 110px;
+  right: 215px;
+}
+
+h4 {
+  position: absolute;
+  top: 140px;
+  right: 220px;
+}
+.emoji {
+  display: flex;
+  margin: 0 auto;
+  font-size: 90px;
+  line-height: 1;
+}
+.info {
+  font-weight: 100;
+}
+
+.col {
+  border: 0px solid darkgrey;
+  border-radius: 20px;
+}
+.col:hover {
+  background: rgb(248, 245, 245);
+  cursor: pointer;
+}
+
+input {
+  position: relative;
+  top: 0;
+  text-align: center;
+  right: 0;
+}
+
+.button {
+  display: block;
+  margin: 0 auto;
+  border: 1px solid rgb(71, 69, 69);
+  background: rgb(26, 24, 24);
+  color: #ffffff;
+  padding: 16px 24px;
+  margin: 20px auto;
+  border-radius: 10px;
+  font-size: 17px;
+  transition: all 200ms ease-in-out;
+  text-align: center;
+}
+
+button:hover {
+  background: #ffffff;
+  color: black;
+  cursor: pointer;
+}
